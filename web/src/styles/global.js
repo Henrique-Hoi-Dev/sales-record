@@ -25,7 +25,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     background-color: #4D4C4C;
 
-    .MuiMenuItem-root {
+    /* .MuiMenuItem-root {
       &:hover {
         transform: scale(1.1);
         transition: all 0.5s;
@@ -82,7 +82,7 @@ export default createGlobalStyle`
           transition: all 0.5s;
         }
       }
-    }
+    } */
 }
   
   body, input, button {
