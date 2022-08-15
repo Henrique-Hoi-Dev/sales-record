@@ -6,6 +6,8 @@ import { createContext, useState } from "react";
 import Theme from "theme/theme";
 import Content from "components/content/content";
 import HeaderBar from "components/headerBar/headerBar";
+import Menu from "components/menu/menu";
+
 export const templateContext = createContext({});
 
 const MainTemplate = () => {
@@ -18,6 +20,7 @@ const MainTemplate = () => {
       <templateContext.Provider value={{ Theme, openMenu, setOpenMenu }}>
         <Box>
           <HeaderBar />
+          <Menu />
           <Content />
         </Box>
       </templateContext.Provider>

@@ -8,8 +8,8 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/system";
 import { MENU_WIDTH } from "utils/constants";
-import MuiDrawer from "@mui/material/Drawer";
 
+import MuiDrawer from "@mui/material/Drawer";
 
 export const ListItemCategory = styled(ListItem)({
   cursor: "pointer",
@@ -25,7 +25,7 @@ export const ListItemCategory = styled(ListItem)({
 });
 
 export const ButtonMenu = styled(ListItemButton)({
-  color: "#34475a",
+  color: "#e0e0e0",
   // minHeight: 30,
   height: "40px",
   px: 2.5,
@@ -33,13 +33,13 @@ export const ButtonMenu = styled(ListItemButton)({
 
 export const IconMenuCategory = styled(ListItemIcon)({
   cursor: "pointer",
-  color: "#34475a",
+  color: "#e0e0e0",
   justifyContent: 'center',
 });
 
 export const ListText = styled(ListItemText)({
   cursor: "pointer",
-  color: "#34475a",
+  color: "#ffffff",
   "& .css-10hburv-MuiTypography-root": { fontWeight: "600" },
   marginTop: 0,
   marginBottom: "10px"
@@ -66,7 +66,7 @@ export const SubList = styled(Grid)({
 
 export const openedMixin = (theme) => ({
   width: MENU_WIDTH,
-  transition:  theme.transitions.create('width', {
+  transition:  theme.transitions.create('#794de3', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.enteringScreen,
   }),
@@ -75,7 +75,7 @@ export const openedMixin = (theme) => ({
 });
 
 export const closedMixin = (theme) => ({
-  transition: theme.transitions.create('width', {
+  transition: theme.transitions.create('#794de3', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
   }),

@@ -23,8 +23,12 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased !important;
-    background-color: #4D4C4C;
+    background-color: #794de3;
 
+    .css-pomxf8-MuiPaper-root-MuiDrawer-paper {
+      background-color: #794de3;
+      color: #e0e0e0;
+    }
     /* .MuiMenuItem-root {
       &:hover {
         transform: scale(1.1);
